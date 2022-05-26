@@ -1,17 +1,17 @@
 import diaryData from '../../data/diaries'
-import { DiaryEntry } from '../../types';
+import { DiaryEntry } from '../types'
 
-const diaries: Array<DiaryEntry> = diaryData;
+const diaries: DiaryEntry[] = diaryData
 
-const getEntries = ():Array<DiaryEntry> => {
-  return diaries;
-};
+const getEntries = (): DiaryEntry[] => {
+  return diaries
+}
 
-const addEntry = () => {
-  return null;
-};
+const addEntry = (): undefined => {
+  return undefined
+}
 
 export default {
   getEntries,
   addEntry
-};
+}
